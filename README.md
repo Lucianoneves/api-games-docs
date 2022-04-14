@@ -104,7 +104,7 @@ Exemplo de respostas:
 
 ```
 {
-    "err": "token invalido"
+   ({err: "Credenciais invalidas!"})
 }
 
 ```
