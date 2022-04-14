@@ -47,10 +47,22 @@ Exemplo de respostas:
 
 
 
-### GET /games
-Esse endpoint é responsavel por  retornar a listagem de todos os games cadastrados no banco de dados.
+### POST /auth
+Esse endpoint é responsavel por  retornar fazer o processo de login 
 #### Paremetros
-Nenhum
+email: E-mail do usuario cadastrado no sistema.
+
+password: senha do usuario cadastrado no sistema com aquele deterninado  e-mail.
+
+Exemplo:
+```
+{   
+"email":"lucianogudas057@gmail.com",
+"senha": "nodejs"    
+
+}
+    
+```
 #### Respostas
 #####  OK 200
 Caso essa respostas aconteça você vai receber a listagem de todos os games.
