@@ -1,1 +1,2 @@
-API de Games
+# API de Games
+# ESta API é utilizada para tal tal..... 
