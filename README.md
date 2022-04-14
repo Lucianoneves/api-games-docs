@@ -91,7 +91,13 @@ Exemplo de respostas:
 
 ``` 
 ##### Falha na autenticação! 401
-Caso essa resposta aconteça isso significa que aconteceu alguma falha durante o processo de autenticação de requisição.
+Caso essa resposta aconteça isso significa que aconteceu alguma falha durante o processo de autenticação de requisição.Motivos:
+Senha ou E-mail incorretos.
+
+Exemplode respostas:
+```
+Credenciais invalidas!
+```
 Motivos: Token inválido, Token Expirado.
 
 Exemplo de respostas:
